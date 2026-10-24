@@ -1,0 +1,9 @@
+// TSS STANDARD — limbaj pur: variabile, funcții, liste, map-uri, math.
+function aria_dreptunghi(l, h) { return l * h; }
+let parcele = [ {"id": 47003, "l": 40, "h": 38},
+                {"id": 47004, "l": 22, "h": 40} ];
+for (let p of parcele) {
+  print("parcela", p.id, "arie", aria_dreptunghi(p.l, p.h), "mp");
+}
+print("unghi topografic 123 45 30 =", dms(123, 45, 30), "grade");
+print("json:", json_serialize({"total": len(parcele)}));

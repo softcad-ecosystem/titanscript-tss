@@ -1,0 +1,16 @@
+name: Docs bundle sanity
+on:
+  push:
+  pull_request:
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check supplied documents and examples
+        run: |
+          test -s docs/tss-standard-2.5-ro.md
+          test -s docs/tss-standard-2.5-en.md
+          test -s examples/01_limbaj_standard_25.tss
+          test -s examples/02_baza_tdb3_standard_25.tss
+          test -s LICENSE

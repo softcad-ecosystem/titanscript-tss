@@ -1,0 +1,13 @@
+// TSS STANDARD — std.db: bază TDB3 într-un fișier, cu istorie și amprentă.
+import std.db;
+let db = db_create("lucrari.tdb3");
+db.write(function(tx) {
+  tx.put("parcele", 47003, {"proprietar": "Popa",    "suprafata": 1520.4});
+  tx.put("parcele", 47004, {"proprietar": "Ionescu", "suprafata":  880.0});
+}, {"author": "operator", "message": "parcele initiale"});
+print("parcele (desc. dupa suprafata):");
+for (let p of db.query("parcele | sorteaza suprafata desc")) {
+  print("  ", p.proprietar, p.suprafata, "mp");
+}
+print("amprenta Merkle:", db.fingerprint());
+db.close();

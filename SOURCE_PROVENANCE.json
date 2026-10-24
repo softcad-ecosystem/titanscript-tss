@@ -1,0 +1,61 @@
+{
+  "source_site_release": "1.30.26",
+  "prepared_on": "2026-10-24",
+  "files": {
+    ".gitignore": {
+      "sha256": "8e1f61dce807be4f891bbda7603ab85c40f6d506b9bdcf0049808a07b01e3847",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "CONTRIBUTING.md": {
+      "sha256": "96112c975ac6774748d17a9442964c9f877df7b5d67a3af31be81157ca84330c",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "LICENSE": {
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "NOTICE.md": {
+      "sha256": "360e469ebc1238a76963c17e8b00332af79707d3a0756a6ec50537903b710347",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "README.md": {
+      "sha256": "3dcb50451dc3f85445d246317dc4d0bc3f0ab78a1e8348c32e80cb377c8f7567",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "README_RO.md": {
+      "sha256": "cfb0b5fb99193c2ace74dd1b16e03afe989e3be31e20fbdec00e204d9d66ecde",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "SECURITY.md": {
+      "sha256": "600bc0b150f4d3747cc606a994398d4179ed68d6197c9fc6ac3449578445a929",
+      "source_site_path": null,
+      "new_editorial_file": true
+    },
+    "docs/tss-standard-2.5-en.md": {
+      "sha256": "6c02854e488c5fcf0c19a3f52f9611d71b94851528fa0b1859c2428082e04fe3",
+      "source_site_path": "downloads/developer-docs/tss-standard-2.5-en.md",
+      "new_editorial_file": false
+    },
+    "docs/tss-standard-2.5-ro.md": {
+      "sha256": "9bf8786eab164cd1e5ca7cd31fe41e91f205fcb5dfb6699edcf9c3ba13f58e03",
+      "source_site_path": "downloads/developer-docs/tss-standard-2.5-ro.md",
+      "new_editorial_file": false
+    },
+    "examples/01_limbaj_standard_25.tss": {
+      "sha256": "9230a1808139c1b010f220afec4eb60b23f91f569b74ce1481061d061a104977",
+      "source_site_path": "downloads/developer-docs/examples/01_limbaj_standard_25.tss",
+      "new_editorial_file": false
+    },
+    "examples/02_baza_tdb3_standard_25.tss": {
+      "sha256": "f8ed7a1b1441ce5cc195f4d7cb8576fdea4bd0106118420da2df7c297ba71175",
+      "source_site_path": "downloads/developer-docs/examples/02_baza_tdb3_standard_25.tss",
+      "new_editorial_file": false
+    }
+  }
+}
